@@ -1,0 +1,25 @@
+# train: /data/qfl/dataset/0724/own_real/train.txt  
+# val: /data/qfl/dataset/0724/own_real/test.txt
+# test: /data/qfl/dataset/0724/own_real/test.txt  # 这是之前混着比赛数据集的test
+# val: /data/qfl/security/yolov7-0724/0724_mytest/test.txt
+# test: /data/qfl/security/yolov7-0724/0724_mytest/test.txt    # 这个是只有实采图像的test
+# val: /data/qfl/dataset/0724/own_real/test存档/不包括比赛数据集bottle_实采数据.txt
+# test: /data/qfl/dataset/0724/own_real/test存档/不包括比赛数据集bottle_实采数据.txt    # 这个是删除比赛中bottle，包括实采图像的test
+
+# tqj dataset
+# train: /data/qfl/tqj/dataset/race/train.txt
+# val: /data/qfl/tqj/dataset/race/test.txt
+# test: /data/qfl/tqj/dataset/race/test.txt
+
+# val: /data/qfl/tqj/dataset/real/test_all.txt
+# test: /data/qfl/tqj/dataset/real/test_all.txt
+
+train: /data/qfl/tqj/dataset/real/train.txt
+val: /data/qfl/tqj/dataset/real/test.txt
+test: /data/qfl/tqj/dataset/real/test.txt
+
+# number of classes
+nc: 7
+
+# class names
+names: ["gun", "knife", "scissors", "tongs", "wrench", "lighter", "bottle"]
